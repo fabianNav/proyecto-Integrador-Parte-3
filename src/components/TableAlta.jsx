@@ -19,7 +19,7 @@ const TableAlta = ({ setProductoAEditar }) => {
           <tr className='tr-alta'>
             <th>Nombre</th>
             <th>Color</th>
-            <th>Almacenamiento</th>
+            <th>Caracteristica</th>
             <th>Precio</th>
             <th>Imagen</th>
             <th>Acciones</th>

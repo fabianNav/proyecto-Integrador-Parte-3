@@ -10,8 +10,8 @@ const FormularioInicial = {
   "id": null,
   "nombre": '',
   "color": '',
-  "resolucion": '',
-  "almacenamiento": '',
+  "caracteristica2": '',
+  "caracteristica1": '',
   "precio": '',
   "foto": '',
 }
@@ -77,10 +77,10 @@ const FormAlta = ({ productoAEditar, setProductoAEditar }) => {
 
         <input
           type="text"
-          name='resolucion'
-          placeholder='Ingrese la resolucion'
+          name='caracteristica2'
+          placeholder='Ingrese la caracteristica 2'
           onChange={handleChange}
-          value={formAlta.resolucion}
+          value={formAlta.caracteristica2}
         />
 
 <input
@@ -93,10 +93,10 @@ const FormAlta = ({ productoAEditar, setProductoAEditar }) => {
 
         <input
           type="text"
-          name='almacenamiento'
-          placeholder='Ingrese el almacenamiento'
+          name='caracteristica1'
+          placeholder='Ingrese el caracteristica 1'
           onChange={handleChange}
-          value={formAlta.almacenamiento}
+          value={formAlta.caracteristica1}
         />
 
         <input

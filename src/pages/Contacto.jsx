@@ -1,6 +1,5 @@
 import './Contacto.css'
 import Form from '../components/Form'
-import PrincipioContacto from '../components/PrincipioContacto'
 import { useContext, useEffect } from 'react'
 import ThemeContext from '../context/ThemeContext'
 
@@ -15,7 +14,6 @@ const Contacto = () => {
   return (
     <main className={theme}>
       <section className="container contacto formu">
-        <PrincipioContacto />
         <Form />
       </section>
     </main>

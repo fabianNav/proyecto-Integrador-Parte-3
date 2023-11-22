@@ -110,8 +110,6 @@ const ProductosProvider = ({ children }) => {
 
         try {
             const urlCompleta = url + id
-            console.log(urlCompleta)
-
 
             const fetchConfig = {
                 method: 'DELETE',

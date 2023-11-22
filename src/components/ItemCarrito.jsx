@@ -41,7 +41,7 @@ const ItemCarrito = ({ itemProducto }) => {
         <p className="mb-4"><strong>{itemProducto.nombre}</strong></p>
         <h6 className="mt-4 carac">Precio</h6>
         <h6 className="mt-4">Color</h6>
-        <h6 className="mt-4 carac">Almacenamiento</h6>
+        <h6 className="mt-4 carac">Caracteristica</h6>
 
         <button
           className="btn-sm me-1 mb-2 fs-4 fa-solid fa-trash-can text-danger btn-borrar"
@@ -66,7 +66,7 @@ const ItemCarrito = ({ itemProducto }) => {
           <strong>{itemProducto.color}</strong>
         </h6>
         <h6 className="text-center mt-4 carac">
-          <strong>{itemProducto.almacenamiento}</strong>
+          <strong>{itemProducto.caracteristica1}</strong>
         </h6>
       </div>
     </div>

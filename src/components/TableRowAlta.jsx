@@ -47,7 +47,7 @@ const TableRowAlta = ({ producto, setProductoAEditar }) => {
     <tr className='tr-tbody-table'>
       <td>{producto.nombre}</td>
       <td>{producto.color}</td>
-      <td>{producto.almacenamiento}</td>
+      <td>{producto.caracteristica1}</td>
       <td>{producto.precio}</td>
       <td><img src={producto.foto} alt={producto.nombre} className='img-alta'/></td>
       <td>

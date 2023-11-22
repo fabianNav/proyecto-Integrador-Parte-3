@@ -22,9 +22,9 @@ const { agregarCarritoContext } = useContext(CarritoContext)
       <div className="card-body">
         <h5 className="card-title">{producto.nombre}</h5>
         <ul className="card-text">
-          <li>Almacenamiento: {producto.almacenamiento}</li>
-          <li>Color: {producto.color}</li>
-          <li>Resolucion: {producto.resolucion}</li>
+          <li>{producto.caracteristica1}</li>
+          <li>COLOR {producto.color}</li>
+          <li>{producto.caracteristica2}</li>
           <li className="costo">${producto.precio}</li>
         </ul>
         <button className="btn btn-primary comprar agregar-carrito" onClick={() => handleComprar(producto)}>Comprar</button>
